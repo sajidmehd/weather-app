@@ -78,7 +78,7 @@ export default function Home() {
   const [isLoading, setisLoading] = useState(false);
   const [place, setPlace] = useState("berlin");
   const baseUrl = "https://api.openweathermap.org/data/2.5/";
-  const API_KEY = "13e936f37776c8974193a683f099f69f";
+  const API_KEY = "";
   const url = `${baseUrl}forecast?q=${place}&appid=${API_KEY}&cnt=50`;
 
   async function handleSubmiSearch(e: React.FormEvent<HTMLFormElement>) {
